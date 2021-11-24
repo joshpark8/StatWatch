@@ -4,7 +4,7 @@ import time
 import pathlib
 
 path = pathlib.Path(__file__).parent.resolve()
-usernames = ["Park-12632", "YZNSA3-2687", "EchoFlex-1763"]
+usernames = ["Park-12632"]
 
 def writeSR(role, sr):
     f = open(f"{path}/logs/{username}_{role}.log", 'a')
