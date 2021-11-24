@@ -24,8 +24,8 @@ def checkFile(role):
 def getSR(username, doPrint):
     r = requests.get(f"https://ow-api.com/v1/stats/pc/us/{username}/profile")
     r = r.json()
-    json_formatted = json.dumps(r, indent=2) #
 
+    # json_formatted = json.dumps(r, indent=2) #
     # r = requests.get(f"https://ow-api.com/v1/stats/pc/us/{username}/complete")
     # r = r.json()
     # json_formatted = json.dumps(r, indent=2) #
